@@ -25,7 +25,18 @@ $ bundle install
 ```
 </details>
 
+```bash
+$ git add -A
+$ git commit -m "Initialize repository"
+```
 ---
+
+GitHubでリモートリポジトリを作成する。
+
+```bash
+$ git remote add origin https://github.com/your-username/sample_app.git
+$ git push -u origin main
+```
 
 ## [3.2 静的ページ](https://railstutorial.jp/chapters/static_pages?version=7.0#sec-static_pages)
 静的なHTMLのみのページを作成するための初期準備として新しくブランチを作成します。
